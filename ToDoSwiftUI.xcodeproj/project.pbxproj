@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8E48F0A62DA06FB900891ABB /* ToDoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0A52DA06FB900891ABB /* ToDoSwiftUIApp.swift */; };
-		8E48F0A82DA06FB900891ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0A72DA06FB900891ABB /* ContentView.swift */; };
 		8E48F0AA2DA06FBB00891ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E48F0A92DA06FBB00891ABB /* Assets.xcassets */; };
 		8E48F0AD2DA06FBB00891ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E48F0AC2DA06FBB00891ABB /* Preview Assets.xcassets */; };
+		8E48F0B72DA070A000891ABB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0B62DA070A000891ABB /* ListView.swift */; };
+		8E48F0B92DA0717A00891ABB /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0B82DA0717A00891ABB /* ListRowView.swift */; };
+		8E48F0BB2DA0728000891ABB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0BA2DA0728000891ABB /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E48F0A22DA06FB900891ABB /* ToDoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E48F0A52DA06FB900891ABB /* ToDoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoSwiftUIApp.swift; sourceTree = "<group>"; };
-		8E48F0A72DA06FB900891ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E48F0A92DA06FBB00891ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E48F0AC2DA06FBB00891ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E48F0B62DA070A000891ABB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8E48F0B82DA0717A00891ABB /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		8E48F0BA2DA0728000891ABB /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				8E48F0A52DA06FB900891ABB /* ToDoSwiftUIApp.swift */,
-				8E48F0A72DA06FB900891ABB /* ContentView.swift */,
+				8E48F0B42DA0709100891ABB /* ViewModel */,
+				8E48F0B52DA0709600891ABB /* View */,
+				8E48F0B32DA0708D00891ABB /* Model */,
 				8E48F0A92DA06FBB00891ABB /* Assets.xcassets */,
 				8E48F0AB2DA06FBB00891ABB /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				8E48F0AC2DA06FBB00891ABB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E48F0B32DA0708D00891ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E48F0B42DA0709100891ABB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8E48F0B52DA0709600891ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E48F0B62DA070A000891ABB /* ListView.swift */,
+				8E48F0B82DA0717A00891ABB /* ListRowView.swift */,
+				8E48F0BA2DA0728000891ABB /* AddView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E48F0A82DA06FB900891ABB /* ContentView.swift in Sources */,
+				8E48F0BB2DA0728000891ABB /* AddView.swift in Sources */,
 				8E48F0A62DA06FB900891ABB /* ToDoSwiftUIApp.swift in Sources */,
+				8E48F0B72DA070A000891ABB /* ListView.swift in Sources */,
+				8E48F0B92DA0717A00891ABB /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
