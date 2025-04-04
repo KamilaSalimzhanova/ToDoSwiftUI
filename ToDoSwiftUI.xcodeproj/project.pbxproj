@@ -16,6 +16,7 @@
 		8E48F0BD2DA0741700891ABB /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0BC2DA0741700891ABB /* ItemModel.swift */; };
 		8E48F0BF2DA076BE00891ABB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0BE2DA076BE00891ABB /* ListViewModel.swift */; };
 		8E48F0C12DA0802D00891ABB /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0C02DA0802D00891ABB /* NoItemsView.swift */; };
+		8E48F0C32DA082F500891ABB /* SeparateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0C22DA082F500891ABB /* SeparateListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8E48F0BC2DA0741700891ABB /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		8E48F0BE2DA076BE00891ABB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		8E48F0C02DA0802D00891ABB /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		8E48F0C22DA082F500891ABB /* SeparateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8E48F0B62DA070A000891ABB /* ListView.swift */,
+				8E48F0C22DA082F500891ABB /* SeparateListView.swift */,
 				8E48F0C02DA0802D00891ABB /* NoItemsView.swift */,
 				8E48F0B82DA0717A00891ABB /* ListRowView.swift */,
 				8E48F0BA2DA0728000891ABB /* AddView.swift */,
@@ -181,6 +184,7 @@
 				8E48F0BF2DA076BE00891ABB /* ListViewModel.swift in Sources */,
 				8E48F0A62DA06FB900891ABB /* ToDoSwiftUIApp.swift in Sources */,
 				8E48F0B72DA070A000891ABB /* ListView.swift in Sources */,
+				8E48F0C32DA082F500891ABB /* SeparateListView.swift in Sources */,
 				8E48F0C12DA0802D00891ABB /* NoItemsView.swift in Sources */,
 				8E48F0B92DA0717A00891ABB /* ListRowView.swift in Sources */,
 			);

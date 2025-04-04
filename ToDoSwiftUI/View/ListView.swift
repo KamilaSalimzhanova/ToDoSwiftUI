@@ -15,19 +15,10 @@ struct ListView: View {
             ZStack {
                 if listViewModel.items.isEmpty {
                     NoItemsView()
+                        .transition(AnyTransition.opacity.animation(.easeIn))
                 } else {
-                    List {
-                        ForEach(listViewModel.items) { item in
-                            ListRowView(item: item)
-                                .onTapGesture {
-                                    withAnimation(.linear) {
-                                        listViewModel.updateItem(item)
-                                    }
-                                }
-                        }
-                        .onDelete(perform: listViewModel.deleteRow)
-                        .onMove(perform: listViewModel.moveRow)
-                    }
+                    SeparateListView()
+                        .transition(AnyTransition.opacity.animation(.easeIn))
                 }
             }
             .listStyle(.inset)
