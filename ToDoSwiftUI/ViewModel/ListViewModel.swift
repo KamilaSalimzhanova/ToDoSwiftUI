@@ -24,12 +24,10 @@ final class ListViewModel: ObservableObject {
         items.append(newItem)
     }
     
-    func updateItem(_ item: ItemModel){
-       if let index = items.firstIndex(where: {(existingItem) ->Bool in
-            return existingItem.id == item.id
-       }) {
-           items[index] = ItemModel(id: item.id, title: item.title, isCompleted: !item.isCompleted)
-       }
+    func updateItem(_ item: ItemModel) {
+        if let index = items.firstIndex(where: { $0.id == item.id }) {
+            items[index].isCompleted.toggle()
+        }
     }
     
     func saveItems() {
