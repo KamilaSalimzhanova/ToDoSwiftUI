@@ -13,6 +13,8 @@
 		8E48F0B72DA070A000891ABB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0B62DA070A000891ABB /* ListView.swift */; };
 		8E48F0B92DA0717A00891ABB /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0B82DA0717A00891ABB /* ListRowView.swift */; };
 		8E48F0BB2DA0728000891ABB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0BA2DA0728000891ABB /* AddView.swift */; };
+		8E48F0BD2DA0741700891ABB /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0BC2DA0741700891ABB /* ItemModel.swift */; };
+		8E48F0BF2DA076BE00891ABB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48F0BE2DA076BE00891ABB /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8E48F0B62DA070A000891ABB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8E48F0B82DA0717A00891ABB /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		8E48F0BA2DA0728000891ABB /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		8E48F0BC2DA0741700891ABB /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		8E48F0BE2DA076BE00891ABB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		8E48F0B32DA0708D00891ABB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8E48F0BC2DA0741700891ABB /* ItemModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,6 +88,7 @@
 		8E48F0B42DA0709100891ABB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8E48F0BE2DA076BE00891ABB /* ListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E48F0BD2DA0741700891ABB /* ItemModel.swift in Sources */,
 				8E48F0BB2DA0728000891ABB /* AddView.swift in Sources */,
+				8E48F0BF2DA076BE00891ABB /* ListViewModel.swift in Sources */,
 				8E48F0A62DA06FB900891ABB /* ToDoSwiftUIApp.swift in Sources */,
 				8E48F0B72DA070A000891ABB /* ListView.swift in Sources */,
 				8E48F0B92DA0717A00891ABB /* ListRowView.swift in Sources */,
